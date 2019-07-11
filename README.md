@@ -1,5 +1,17 @@
 # TCP数据包解析工具
 
+## 依赖
+由于 `PyShark` 需要依赖 `Wireshark` 软件包中的 `tshark` 命令，请先安装 `Wireshark` 软件包。
+
+### Windows
+[Wireshark 下载地址](https://www.wireshark.org/download.html)
+
+### Ubuntu 
+
+`sudo apt install wireshark tshark`
+
+## 说明
+
 本工具仅作为 `PyShark` 的演示程序，展示如何读取捕获的数据文件以及包字段使用方法。
 
 通过利用字典 `key` 不能重复的特性，将TCP包按“源IP”“源端口”“目标IP”“目标端口”进行了分组。
