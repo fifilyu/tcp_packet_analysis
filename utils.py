@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# -- coding: utf-8 --
+
 import pandas
 from pyshark.packet import packet
 

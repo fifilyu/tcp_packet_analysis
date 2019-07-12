@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# -- coding: utf-8 -- 
+
 import pyshark
 from utils import get_packet
 from utils import pretty_print_tcp_info
